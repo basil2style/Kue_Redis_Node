@@ -11,3 +11,6 @@ Instructions:
 Credits
 https://www.javascripttuts.com/create-node-js-background-task-using-kue-workers/
 https://ifelse.io/2016/02/23/using-node-redis-and-kue-for-priority-job-processing/
+
+Do:
+http://www.grepstar.org/recipe-3-alarming-with-kue/
