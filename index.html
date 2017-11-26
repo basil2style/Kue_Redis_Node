@@ -1,0 +1,26 @@
+<html>
+    <head>
+     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+     <script language="javascript">
+        // define the function within the global scope
+        $.fn.MessageBox = function(msg) {
+            alert(msg);
+        };
+    
+        // or, if you want to encapsulate variables within the plugin
+        (function($) {
+            $.fn.MessageBoxScoped = function(msg) {
+                alert(msg);
+            };
+        })(jQuery); //<-- make sure you pass jQuery into the $ parameter
+     </script>
+    </head>
+    <body>
+     <div class="Title">Welcome!</div>
+     <input type="button" value="ahaha" id="test" onClick="$(this).MessageBox('msg');" />
+     <button onClick="triggerJob()">Trigger job</button>
+     
+    </body>
+    </html>
+
+
