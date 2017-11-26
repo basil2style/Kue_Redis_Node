@@ -7,3 +7,7 @@ Used Postman for testing api
 Instructions:
 1) Install redis 
 2) do npm install
+
+Credits
+https://www.javascripttuts.com/create-node-js-background-task-using-kue-workers/
+https://ifelse.io/2016/02/23/using-node-redis-and-kue-for-priority-job-processing/
