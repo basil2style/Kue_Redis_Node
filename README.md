@@ -2,7 +2,7 @@
 This is an example code for learning KueJS, credits :https://www.javascripttuts.com/create-node-js-background-task-using-kue-workers/
 
 IDE used : VS Code
-Used Postman for testing api
+and Used Postman for testing 
 
 Instructions:
 1) Install redis 
